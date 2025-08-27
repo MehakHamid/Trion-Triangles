@@ -1,0 +1,122 @@
+[
+  {
+    "issue": "Error 01",
+    "solution": "Check battery connection, ensure polarity is correct, and tighten terminals."
+  },
+  {
+    "issue": "Error 02",
+    "solution": "Overload detected. Reduce connected load within inverter capacity."
+  },
+  {
+    "issue": "Error 03",
+    "solution": "Battery voltage too low. Recharge battery or replace if faulty."
+  },
+  {
+    "issue": "Error 04",
+    "solution": "Battery voltage too high. Check charger settings and battery health."
+  },
+  {
+    "issue": "Error 05",
+    "solution": "Over-temperature. Improve ventilation or reduce load."
+  },
+  {
+    "issue": "Error 06",
+    "solution": "PV overvoltage. Verify solar panel configuration and reduce PV input."
+  },
+  {
+    "issue": "Error 07",
+    "solution": "Grid failure. Check AC input supply and wiring."
+  },
+  {
+    "issue": "Error 08",
+    "solution": "Communication error. Inspect communication cable and connections."
+  },
+  {
+    "issue": "Error 09",
+    "solution": "EEPROM error. Restart inverter or contact support if problem persists."
+  },
+  {
+    "issue": "Error 10",
+    "solution": "Fan locked. Check fan for obstruction or replace if damaged."
+  },
+  {
+    "issue": "Error 11",
+    "solution": "PV isolation fault. Inspect PV system insulation and grounding."
+  },
+  {
+    "issue": "Error 12",
+    "solution": "Inverter relay failure. Restart inverter or contact service."
+  },
+  {
+    "issue": "Error 13",
+    "solution": "Battery temperature sensor error. Check sensor connection or replace sensor."
+  },
+  {
+    "issue": "Error 14",
+    "solution": "PV current sensor error. Inspect PV input wiring and sensor."
+  },
+  {
+    "issue": "Error 15",
+    "solution": "Battery current sensor error. Verify battery wiring and sensor condition."
+  },
+  {
+    "issue": "Error 16",
+    "solution": "DC bus voltage too high. Reduce PV input or check DC bus circuit."
+  },
+  {
+    "issue": "Error 17",
+    "solution": "DC bus voltage too low. Check battery/MPPT input supply."
+  },
+  {
+    "issue": "Error 18",
+    "solution": "Inverter output short-circuit. Disconnect load and restart."
+  },
+  {
+    "issue": "Error 19",
+    "solution": "Overcharge protection. Verify charger settings and battery health."
+  },
+  {
+    "issue": "Error 20",
+    "solution": "Internal communication error. Restart inverter; if persists, contact service."
+  },
+  {
+    "issue": "Error 21",
+    "solution": "Current unbalance detected. Check loads connected across phases."
+  },
+  {
+    "issue": "Error 22",
+    "solution": "DC fan error. Inspect or replace cooling fan."
+  },
+  {
+    "issue": "Error 23",
+    "solution": "AC output abnormal. Check load type and grid synchronization."
+  },
+  {
+    "issue": "Error 24",
+    "solution": "DC component high. Restart inverter or contact support."
+  },
+  {
+    "issue": "Error 25",
+    "solution": "Grid under-voltage. Check grid supply."
+  },
+  {
+    "issue": "Error 26",
+    "solution": "Grid over-voltage. Verify grid input stability."
+  },
+  {
+    "issue": "Error 27",
+    "solution": "Grid under-frequency. Monitor grid supply frequency."
+  },
+  {
+    "issue": "Error 28",
+    "solution": "Grid over-frequency. Check with local utility provider."
+  },
+  {
+    "issue": "Error 29",
+    "solution": "Inverter self-test failed. Restart and retry; if persists, contact service."
+  },
+  {
+    "issue": "Error 30",
+    "solution": "Ground fault detected. Inspect wiring insulation and grounding."
+  }
+]

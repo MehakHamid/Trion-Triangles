@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the basic function of an inverter?",
+    "answer": "The main function of an inverter is to convert DC (direct current) from solar panels or batteries into AC (alternating current), which is used to power household or office appliances.",
+    "status": "published"
+  },
+  {
+    "question": "What is the difference between a hybrid inverter and a normal inverter?",
+    "answer": "A hybrid inverter can manage solar, battery, and grid simultaneously. It can charge batteries from the grid and export excess solar energy back to the grid. A normal inverter only manages batteries and the grid, without solar export features.",
+    "status": "published"
+  },
+  {
+    "question": "What is the main difference between a lithium battery and a lead-acid battery?",
+    "answer": "Lithium batteries have a longer cycle life (3000–6000 cycles), charge faster, and are maintenance-free. Lead-acid batteries have a shorter lifespan (500–1000 cycles) and require regular maintenance.",
+    "status": "published"
+  },
+  {
+    "question": "Is it safe to fully discharge a lithium battery?",
+    "answer": "No, it is recommended to recharge lithium batteries when they reach 20–30% capacity. Fully discharging them shortens their overall lifespan.",
+    "status": "published"
+  },
+  {
+    "question": "What is the difference between imported and local inverters?",
+    "answer": "Imported inverters usually offer higher efficiency (95–98%), smart monitoring features (Wi-Fi, mobile apps), and hybrid support. Local inverters are more affordable but have limited efficiency and fewer features.",
+    "status": "published"
+  },
+  {
+    "question": "Do imported lithium batteries come with a better warranty?",
+    "answer": "Yes, imported lithium batteries typically include a warranty of 5–10 years, while local batteries usually offer 1–3 years of warranty.",
+    "status": "published"
+  },
+  {
+    "question": "Can an inverter work without the grid?",
+    "answer": "Yes, if the inverter is an off-grid or hybrid type, it can work with solar and batteries without a grid connection. However, on-grid inverters cannot function without the grid.",
+    "status": "published"
+  },
+  {
+    "question": "How are lithium batteries protected from overcharging?",
+    "answer": "Lithium batteries have a built-in Battery Management System (BMS) that protects against overcharging, deep discharging, and overheating.",
+    "status": "published"
+  }
+]
