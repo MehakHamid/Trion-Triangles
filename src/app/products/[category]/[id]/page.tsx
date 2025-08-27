@@ -3,11 +3,14 @@ import Image from "next/image"
 
 export const revalidate = 60
 
-export default async function ProductDetailPage({
-  params,
-}: {
-  params: { id: string }
-}) {
+interface ProductDetailPageProps {
+  params: {
+    id: string
+    category: string
+  }
+}
+
+export default async function ProductDetailPage({ params }: ProductDetailPageProps) {
   const product = await client.fetch(
     `*[_type=="product" && _id==$id][0]{
       model, capacity, load, specifications, description, image, price
