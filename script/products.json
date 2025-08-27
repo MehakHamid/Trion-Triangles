@@ -1,0 +1,120 @@
+[
+  {
+    "_type": "product",
+    "category": "wise-series",
+    "model": "WISE-1201",
+    "capacity": "1200VA/1000W",
+    "load": "230VDC/12VAC",
+    "specifications": [
+      "2 Years nationwide Care Service warranty",
+      "Highly efficient DC-AC conversion with minimal energy loss",
+      "Free AC/DC Cables",
+      "MPPT modified sine wave inverter with 70A MPPT charger",
+      "Maximum PV Array Power 960W",
+      "Overload and short circuit protection",
+      "3-stage charger control",
+      "LCD & LED display indicator"
+    ],
+    "description": "Reliable 1200VA inverter designed for Pakistani batteries with efficient charging system.",
+    "price": 45000
+  },
+  {
+    "_type": "product",
+    "category": "wise-series",
+    "model": "WISE-2001",
+    "capacity": "2000VA/1800W",
+    "load": "230VAC/24VDC",
+    "specifications": [
+      "2 Years nationwide Care Service warranty",
+      "Highly efficient DC-AC conversion with minimal energy loss",
+      "Free AC/DC Cables",
+      "MPPT modified sine wave inverter with 70A MPPT charger",
+      "Maximum PV Array Power 1650W",
+      "Overload and short circuit protection",
+      "3-stage charger control",
+      "LCD & LED display indicator"
+    ],
+    "description": "Powerful 2000VA inverter with efficient DC-AC conversion, adapted to Pakistani conditions.",
+    "price": 65000
+  },
+  {
+    "_type": "product",
+    "category": "connect-series",
+    "model": "CONNECT-3000",
+    "capacity": "3000VA/2400W",
+    "load": "230VAC/48VDC",
+    "specifications": [
+      "Advanced DSP control technology",
+      "Built-in MPPT solar charge controller",
+      "Wide input voltage range",
+      "Overload & short circuit protection",
+      "Pure sine wave output"
+    ],
+    "description": "High capacity inverter suitable for homes and small offices with solar support.",
+    "price": 90000
+  },
+  {
+    "_type": "product",
+    "category": "lux-power",
+    "model": "LUX-5000",
+    "capacity": "5000VA/4000W",
+    "load": "230VAC/48VDC",
+    "specifications": [
+      "Hybrid inverter with grid-tie support",
+      "Remote monitoring via WiFi/GPRS",
+      "Dual MPPT trackers",
+      "Intelligent battery management system",
+      "High efficiency conversion"
+    ],
+    "description": "Premium Lux Power inverter with advanced hybrid features and monitoring system.",
+    "price": 140000
+  },
+  {
+    "_type": "product",
+    "category": "flux",
+    "model": "FLUX-1500",
+    "capacity": "1500VA/1200W",
+    "load": "220VAC/24VDC",
+    "specifications": [
+      "Pure sine wave inverter",
+      "High frequency design",
+      "Compact and lightweight",
+      "LCD status display",
+      "Battery deep discharge protection"
+    ],
+    "description": "Entry-level Flux series inverter for small households and offices.",
+    "price": 40000
+  },
+  {
+    "_type": "product",
+    "category": "solplanet",
+    "model": "SOL-3KW",
+    "capacity": "3000W",
+    "load": "220-240VAC",
+    "specifications": [
+      "Grid-tied solar inverter",
+      "Up to 98% efficiency",
+      "IP65 protection rating",
+      "Natural cooling design",
+      "Easy installation with mobile app monitoring"
+    ],
+    "description": "High performance Solplanet inverter ideal for residential solar systems.",
+    "price": 120000
+  },
+  {
+    "_type": "product",
+    "category": "dongin-battery",
+    "model": "DONGIN-5KWH",
+    "capacity": "5kWh Lithium Battery",
+    "load": "48VDC",
+    "specifications": [
+      "Long cycle life >6000 cycles",
+      "High energy density",
+      "Built-in BMS (Battery Management System)",
+      "Compact wall-mount design",
+      "Safe LFP technology"
+    ],
+    "description": "Dongin lithium battery with long cycle life and safe performance for solar storage.",
+    "price": 250000
+  }
+]

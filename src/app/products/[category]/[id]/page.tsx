@@ -16,43 +16,47 @@ export default async function ProductDetailPage({
   )
 
   if (!product) {
-    return <div className="p-12">Product not found</div>
+    return <div className="p-12 text-center text-slate-600">Product not found</div>
   }
 
   return (
-    <div className="max-w-4xl mx-auto px-6 py-12">
-      {product.image && (
-        <Image
-          src={product.image.asset.url}
-          alt={product.model}
-          width={600}
-          height={400}
-          className="rounded-xl mb-6"
-        />
-      )}
+    <div className="max-w-5xl mx-auto px-6 py-12">
+      <div className="grid md:grid-cols-2 gap-10 items-start">
+        {product.image && (
+          <Image
+            src={product.image.asset.url}
+            alt={product.model}
+            width={600}
+            height={400}
+            className="rounded-2xl shadow-md"
+          />
+        )}
 
-      <h1 className="text-2xl font-bold">{product.model}</h1>
-      <p className="text-slate-600">{product.description}</p>
+        <div>
+          <h1 className="text-3xl font-bold text-slate-800">{product.model}</h1>
+          <p className="text-slate-600 mt-2">{product.description}</p>
 
-      <div className="mt-6">
-        <h2 className="font-semibold">Specifications:</h2>
-        <ul className="list-disc list-inside text-slate-700">
-          {product.specifications?.map((spec: string, idx: number) => (
-            <li key={idx}>{spec}</li>
-          ))}
-        </ul>
-      </div>
+          <div className="mt-6">
+            <h2 className="font-semibold text-lg text-slate-800">Specifications:</h2>
+            <ul className="list-disc list-inside text-slate-700 space-y-1 mt-2">
+              {product.specifications?.map((spec: string, idx: number) => (
+                <li key={idx}>{spec}</li>
+              ))}
+            </ul>
+          </div>
 
-      <div className="mt-4">
-        <p>
-          <strong>Capacity:</strong> {product.capacity}
-        </p>
-        <p>
-          <strong>Load:</strong> {product.load}
-        </p>
-        <p className="text-xl font-bold text-sky-600 mt-2">
-          Price: ${product.price}
-        </p>
+          <div className="mt-6 space-y-1">
+            <p>
+              <strong>Capacity:</strong> {product.capacity}
+            </p>
+            <p>
+              <strong>Load:</strong> {product.load}
+            </p>
+            <p className="text-2xl font-bold text-sky-600 mt-3">
+              Price: ${product.price}
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   )

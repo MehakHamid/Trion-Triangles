@@ -17,41 +17,51 @@ export default async function CategoryPage({
   )
 
   return (
-    <div className="max-w-6xl mx-auto px-6 py-12">
-      <h1 className="text-2xl font-bold capitalize mb-8">
+    <div className="max-w-7xl mx-auto px-6 py-12">
+      <h1 className="text-3xl font-bold capitalize text-slate-800 mb-10 border-b-2 border-sky-500 inline-block pb-2">
         {params.category.replace("-", " ")}
       </h1>
 
-      <div className="grid md:grid-cols-3 gap-6">
-        {data.map((item: any) => (
-          <div
-            key={item._id}
-            className="bg-white shadow rounded-xl p-4 hover:shadow-lg transition"
-          >
-            {item.image && (
-              <Image
-                src={item.image.asset.url}
-                alt={item.model}
-                width={400}
-                height={300}
-                className="rounded-lg"
-              />
-            )}
-            <h2 className="text-lg font-semibold mt-2">{item.model}</h2>
-            <p className="text-sm text-slate-600">
-              Capacity: {item.capacity} | Load: {item.load}
-            </p>
-            <p className="font-bold text-sky-600 mt-1">${item.price}</p>
-
-            <Link
-              href={`/products/${params.category}/${item._id}`}
-              className="inline-block mt-3 text-sm text-white bg-sky-600 px-4 py-2 rounded-lg hover:bg-sky-700 transition"
+      {data.length === 0 ? (
+        <p className="text-slate-600">No products found in this category.</p>
+      ) : (
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {data.map((item: any) => (
+            <div
+              key={item._id}
+              className="bg-white shadow-lg rounded-2xl overflow-hidden hover:shadow-2xl transition transform hover:-translate-y-1"
             >
-              View Details
-            </Link>
-          </div>
-        ))}
-      </div>
+              {item.image && (
+                <Image
+                  src={item.image.asset.url}
+                  alt={item.model}
+                  width={400}
+                  height={250}
+                  className="w-full h-52 object-cover"
+                />
+              )}
+              <div className="p-5">
+                <h2 className="text-xl font-semibold text-slate-800">
+                  {item.model}
+                </h2>
+                <p className="text-sm text-slate-600 mt-1">
+                  Capacity: {item.capacity} | Load: {item.load}
+                </p>
+                <p className="text-lg font-bold text-sky-600 mt-2">
+                  ${item.price}
+                </p>
+
+                <Link
+                  href={`/products/${params.category}/${item._id}`}
+                  className="mt-4 inline-block bg-sky-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-sky-700 transition"
+                >
+                  View Details
+                </Link>
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
     </div>
   )
 }
